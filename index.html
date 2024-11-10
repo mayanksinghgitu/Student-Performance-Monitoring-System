@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Performance Monitoring System</h1>
+    <form action="StudentServlet" method="POST">
+        <label>First Name:</label><input type="text" name="first_name" required><br>
+        <label>Last Name:</label><input type="text" name="last_name" required><br>
+        <label>Class:</label><input type="text" name="class" required><br>
+        <label>Email:</label><input type="email" name="email" required><br>
+        <button type="submit">Add Student</button>
+    </form>
+    <div>
+        <h2>Student Performance</h2>
+        <input type="number" id="student-id" placeholder="Enter Student ID">
+        <button onclick="fetchPerformance()">Get Performance</button>
+        <ul id="performance-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
