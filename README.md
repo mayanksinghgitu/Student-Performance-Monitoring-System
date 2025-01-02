@@ -1,6 +1,9 @@
 Student Performance Monitoring System
 A simple web-based system built with Java, SQL, HTML, and CSS to help teachers monitor and manage student performance. Teachers can add student records, assign subject scores, and view the academic performance of each student.
 
+
+OPEN DEMO_STUDENT_PERFORMANCE_MONITORING_SYSTEM For LITE VER. OF application
+
 Table of Contents
 Features
 Technologies Used
